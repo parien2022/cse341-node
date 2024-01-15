@@ -1,0 +1,17 @@
+##localhost
+
+## GET all contacts using localhost
+http://localhost:8080/contacts/
+
+## GET only 1 contacts using localhost
+http://localhost:8080/contacts/65a47fd192261f4daf80ee36
+
+
+##Render
+
+## GET all contacts using localhost
+https://node-web-service-stph.onrender.com/contacts/
+
+## GET only 1 contacts using localhost
+https://node-web-service-stph.onrender.com/contacts/65a47fd192261f4daf80ee38
+
