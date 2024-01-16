@@ -1,13 +1,12 @@
 const express = require('express');
-const bodyParser = require('body-parser');
+//const bodyParser = require('body-parser');
 const contactRoutes = require('./routes/contacts');
 const mongodb = require('./db/connection');
 
 const port = process.env.PORT || 8080;
 const app = express();
 
-app.use('/', contactRoutes)
-
+app.use('/', contactRoutes);
 
 mongodb.initDb((err) => {
     if(err){
