@@ -5,7 +5,7 @@
     "description": "Contacts API",
     "version": "1.0.0"
   },
-  "host": "https://node-web-service-stph.onrender.com",
+  "host": "node-web-service-stph.onrender.com",
   "basePath": "/",
   "schemes": [
     "https",
